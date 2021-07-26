@@ -1,0 +1,12 @@
+#img-bg{
+  background-image: url("../../assets/imgs/bg-img-cadastro.jpg");
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.mt-10{
+  margin-top: 20%;
+}
