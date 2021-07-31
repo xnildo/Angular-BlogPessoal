@@ -9,12 +9,12 @@
     <ul class="navbar-nav mr-auto d-flex align-items-center">
 
       <li class="nav-item active">
-        <img src="../../assets/imgs/foto4.jpg"
+        <img src="{{foto}}"
         width="50px" height="50px" alt="imagem usuario" class="img-fluid rounded-circle">
       </li>
 
       <li class="nav-item pl-3">
-        <p class=" m-0 font-weight-bold fs-16 text-light">Zé Nildo</p>
+        <p class=" m-0 font-weight-bold fs-16 text-light">Olá, {{nome}} </p>
       </li>
 
       <li class="nav-item pl-3">
@@ -27,7 +27,7 @@
 
     <ul class="navbar-nav ml-auto d-flex align-items-center">
       <li class="nav-item pl-3 ">
-        <a class="m-0 font-weight-bold text-light fs-16 ">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
+        <a (click)='sair()' class="m-0 font-weight-bold text-light fs-16 ">Sair <i class="fa fa-sign-out" aria-hidden="true"></i></a>
       </li>
     </ul>
 

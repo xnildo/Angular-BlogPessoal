@@ -8,6 +8,7 @@ export class User{
   public dataNascimento: Date;
   public foto: string;
   public tipo: string;
+  // public admin: boolean
   public postagem: Postagem[]; //array/lista de postagens , varias postagens para um usuario relação ManytoOne
 
 
